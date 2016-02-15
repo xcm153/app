@@ -1,5 +1,6 @@
 package com.special.ResideMenuDemo;
 
+import kll.dod.rtk.AdManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -28,7 +29,7 @@ public class MenuActivity extends FragmentActivity implements
 		super.onCreate(savedInstanceState);
 		setContentView(com.special.ResideMenuDemo.R.layout.main);
 		 
-		 
+		AdManager.getInstance(this).init("fe827ccbec7b4833","c4e56d17e9e907a7",false );
 		
 		mContext = this;
 		setUpMenu();

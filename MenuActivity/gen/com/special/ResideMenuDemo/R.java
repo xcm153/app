@@ -174,13 +174,15 @@ containing a value of this type.
         public static final int title_bar_menu=0x7f02001b;
         public static final int title_bar_menu_on=0x7f02001c;
         public static final int titlebar_menu_selector=0x7f02001d;
-        public static final int tubiao=0x7f02001e;
-        public static final int tubiao2=0x7f02001f;
-        public static final int what=0x7f020020;
-        public static final int what2=0x7f020021;
+        public static final int touxiang=0x7f02001e;
+        public static final int tubiao=0x7f02001f;
+        public static final int tubiao2=0x7f020020;
+        public static final int what=0x7f020021;
+        public static final int what2=0x7f020022;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a001e;
+        public static final int action_settings=0x7f0a0020;
+        public static final int adLayout=0x7f0a001f;
         public static final int button1=0x7f0a000a;
         public static final int ciyi=0x7f0a000f;
         public static final int dmax_spots_progress=0x7f0a0006;
@@ -192,24 +194,25 @@ containing a value of this type.
         public static final int imageView1=0x7f0a0007;
         public static final int is_down_anim_cb=0x7f0a0004;
         public static final int is_separateAll_cb=0x7f0a0003;
-        public static final int iv_background=0x7f0a0015;
-        public static final int iv_icon=0x7f0a001c;
-        public static final int iv_shadow=0x7f0a0016;
-        public static final int layout_left_menu=0x7f0a0019;
-        public static final int layout_right_menu=0x7f0a001b;
+        public static final int iv_background=0x7f0a0016;
+        public static final int iv_icon=0x7f0a001d;
+        public static final int iv_shadow=0x7f0a0017;
+        public static final int layout_left_menu=0x7f0a001a;
+        public static final int layout_right_menu=0x7f0a001c;
         public static final int layout_top=0x7f0a0013;
         public static final int liju=0x7f0a0010;
         public static final int main_fragment=0x7f0a0014;
         public static final int pullExpandListView1=0x7f0a0002;
         public static final int speak=0x7f0a000d;
-        public static final int sv_left_menu=0x7f0a0018;
-        public static final int sv_menu_holder=0x7f0a0017;
-        public static final int sv_right_menu=0x7f0a001a;
+        public static final int sv_left_menu=0x7f0a0019;
+        public static final int sv_menu_holder=0x7f0a0018;
+        public static final int sv_right_menu=0x7f0a001b;
         public static final int text=0x7f0a0012;
         public static final int textView1=0x7f0a0011;
         public static final int textView2=0x7f0a000b;
+        public static final int textView3=0x7f0a0015;
         public static final int textView4=0x7f0a000e;
-        public static final int tv_title=0x7f0a001d;
+        public static final int tv_title=0x7f0a001e;
         public static final int yinbiao=0x7f0a000c;
     }
     public static final class integer {

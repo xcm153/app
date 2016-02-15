@@ -12,15 +12,15 @@ public final class R {
 		public static final int shadow = 0x7f020016;
 	}
 	public static final class id {
-		public static final int iv_background = 0x7f0a0015;
-		public static final int iv_icon = 0x7f0a001c;
-		public static final int iv_shadow = 0x7f0a0016;
-		public static final int layout_left_menu = 0x7f0a0019;
-		public static final int layout_right_menu = 0x7f0a001b;
-		public static final int sv_left_menu = 0x7f0a0018;
-		public static final int sv_menu_holder = 0x7f0a0017;
-		public static final int sv_right_menu = 0x7f0a001a;
-		public static final int tv_title = 0x7f0a001d;
+		public static final int iv_background = 0x7f0a0016;
+		public static final int iv_icon = 0x7f0a001d;
+		public static final int iv_shadow = 0x7f0a0017;
+		public static final int layout_left_menu = 0x7f0a001a;
+		public static final int layout_right_menu = 0x7f0a001c;
+		public static final int sv_left_menu = 0x7f0a0019;
+		public static final int sv_menu_holder = 0x7f0a0018;
+		public static final int sv_right_menu = 0x7f0a001b;
+		public static final int tv_title = 0x7f0a001e;
 	}
 	public static final class layout {
 		public static final int residemenu_custom = 0x7f030009;

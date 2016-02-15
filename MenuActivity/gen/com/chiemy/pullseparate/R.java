@@ -19,7 +19,7 @@ public final class R {
 		public static final int ic_launcher = 0x7f02000b;
 	}
 	public static final class id {
-		public static final int action_settings = 0x7f0a001e;
+		public static final int action_settings = 0x7f0a0020;
 		public static final int imageView1 = 0x7f0a0007;
 		public static final int is_down_anim_cb = 0x7f0a0004;
 		public static final int is_separateAll_cb = 0x7f0a0003;

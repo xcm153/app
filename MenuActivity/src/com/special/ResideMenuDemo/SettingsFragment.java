@@ -1,5 +1,8 @@
 package com.special.ResideMenuDemo;
 
+import kll.dod.rtk.br.AdSize;
+import kll.dod.rtk.br.AdView;
+import kll.dod.rtk.st.SpotManager;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,6 +14,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import com.dd.morphingbutton.MorphingButton;
 import com.dd.morphingbutton.impl.LinearProgressButton;
@@ -40,6 +44,11 @@ public class SettingsFragment extends Fragment {
 			Bundle savedInstanceState) {
 		parentView = inflater.inflate(
 				com.special.ResideMenuDemo.R.layout.settings, container, false);
+
+		AdView adView = new AdView(getActivity(), AdSize.FIT_SCREEN);
+		LinearLayout adLayout = (LinearLayout) parentView
+				.findViewById(R.id.adLayout);
+		adLayout.addView(adView);
 		final LinearProgressButton btnMorph1 = (LinearProgressButton) parentView
 				.findViewById(com.special.ResideMenuDemo.R.id.button1);
 		btnMorph1.setOnClickListener(new View.OnClickListener() {
@@ -54,6 +63,7 @@ public class SettingsFragment extends Fragment {
 			}
 		});
 		morphToSquare(btnMorph1, 0);
+
 		return parentView;
 	}
 
@@ -74,8 +84,7 @@ public class SettingsFragment extends Fragment {
 				.width(dimen(R.dimen.mb_width_100))
 				.height(dimen(R.dimen.mb_height_56))
 				.color(color(R.color.mb_blue))
-				.colorPressed(color(R.color.mb_blue_dark))
-				;
+				.colorPressed(color(R.color.mb_blue_dark));
 		btnMorph.morph(square);
 	}
 
@@ -90,8 +99,6 @@ public class SettingsFragment extends Fragment {
 				.icon(R.drawable.ic_done);
 		btnMorph.morph(circle);
 	}
-
-
 
 	private void simulateProgress1(@NonNull final LinearProgressButton button) {
 		int progressColor = color(R.color.mb_purple);

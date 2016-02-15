@@ -18,7 +18,7 @@
 
     <dimen name="mb_corner_radius_2">2dp</dimen>
     <dimen name="mb_corner_radius_4">4dp</dimen>
-    <dimen name="mb_width_100">100dp</dimen>
+    <dimen name="mb_width_100">80dp</dimen>
     <dimen name="mb_width_120">120dp</dimen>
     <dimen name="mb_width_200">200dp</dimen>
     <dimen name="mb_height_56">80dp</dimen>
