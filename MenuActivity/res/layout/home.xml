@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical"
+    android:background="@drawable/what"
+     >
+
+    <FrameLayout
+        android:id="@+id/ignored_view"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <utils.MyEditText
+                android:id="@+id/editText1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/button1"
+                android:drawableRight="@drawable/shanchu"
+                android:ems="10"
+                android:height="50dp"
+                android:hint="输入你想查的单词"
+                android:singleLine="true"
+                app:biu_duration="800"
+                app:biu_text_color="@android:color/black"
+                app:biu_text_scale="1.5"
+                app:biu_text_start_size="12sp"
+                app:biu_type="flyup" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/editText1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/icon1" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ignored_view"
+        android:text="音标"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/yinbiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_below="@+id/ignored_view"
+        android:layout_toLeftOf="@+id/speak"
+        android:layout_toRightOf="@+id/textView2"
+      
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/yinbiao"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ignored_view"
+        android:background="@drawable/icon2" />
+    
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/speak"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/yinbiao"
+        android:text="词义"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ciyi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/liju"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        
+        
+        android:lines="3"
+        android:scrollbars="vertical"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="122dp"
+        android:layout_toLeftOf="@+id/liju"
+        android:text="例句"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/liju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ciyi"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        
+       
+        android:scrollbars="vertical"
+        android:textSize="30sp" />
+
+</RelativeLayout>

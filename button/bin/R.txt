@@ -1,0 +1,4 @@
+int color mb_blue 0x7f020001
+int color mb_blue_dark 0x7f020002
+int color mb_gray 0x7f020000
+int dimen mb_corner_radius_2 0x7f030000
